@@ -1,0 +1,5 @@
+{
+  "databaseUrl": "https://YOUR-PROJECT-default-rtdb.firebaseio.com",
+  "siteUrl": "https://YOUR-PROJECT.web.app",
+  "room": ""
+}

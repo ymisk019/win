@@ -1,0 +1,16 @@
+{
+  "buttons": [
+    { "id": "notepad", "label": "Notepad", "icon": "📝", "action": { "type": "open", "target": "notepad.exe" } },
+    { "id": "calc",    "label": "Calculator", "icon": "🧮", "action": { "type": "open", "target": "calc.exe" } },
+    { "id": "chrome",  "label": "Google", "icon": "🌐", "action": { "type": "open", "target": "https://www.google.com" } },
+    { "id": "vol_up",  "label": "Vol +", "icon": "🔊", "action": { "type": "media", "target": "vol_up" } },
+    { "id": "vol_dn",  "label": "Vol -", "icon": "🔉", "action": { "type": "media", "target": "vol_down" } },
+    { "id": "mute",    "label": "Mute", "icon": "🔇", "action": { "type": "media", "target": "mute" } },
+    { "id": "prev",    "label": "Prev", "icon": "⏮", "action": { "type": "media", "target": "prev" } },
+    { "id": "play",    "label": "Play/Pause", "icon": "⏯", "action": { "type": "media", "target": "play_pause" } },
+    { "id": "next",    "label": "Next", "icon": "⏭", "action": { "type": "media", "target": "next" } },
+    { "id": "copy",    "label": "Copy", "icon": "📋", "action": { "type": "keys", "target": "^c" } },
+    { "id": "paste",   "label": "Paste", "icon": "📌", "action": { "type": "keys", "target": "^v" } },
+    { "id": "desktop", "label": "Desktop", "icon": "🖥", "action": { "type": "keys", "target": "^{ESC}" } }
+  ]
+}
